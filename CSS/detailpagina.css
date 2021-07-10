@@ -1,0 +1,207 @@
+.logo {
+    height: 5em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+body {
+    background-color: #E2E2E2;
+    font-family: mrs-eaves, serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 4em;
+    padding-left: 5em;
+    line-height: 1.6em;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.highlight {
+    background-color: paleturquoise;
+}
+
+#aangenaam {
+    padding-left: 5em;
+    padding-right: 5em;
+    line-height: 4em;
+}
+
+#introductie {
+    font-size: 2em;
+    line-height: 1.5em;
+}
+
+#introductietitel {
+    font-size: 4em;
+    padding-top: 2em;
+    padding-bottom: 0.em;
+}
+
+.mij {
+    width: 20em;
+    position: relative;
+    padding-right: 0em;
+}
+
+.ons {
+    width: 40em;
+    padding-top: 5em;
+}
+
+.containerovermij {
+    display: flex;
+}
+
+.sectionovermij {
+    padding: 2em;
+    width: 40%;
+}
+
+#navbar {
+    width: 100%;
+    align-content: center;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+#navbar li {
+    list-style-type: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+#navbar li a {
+    text-decoration: none;
+    color: gray;
+}
+
+#navbar li a:hover {
+    color: #F54900;
+    text-decoration-line: overline;
+}
+
+#navbar .navcurrent a {
+    color: black;
+    text-decoration-line: overline;
+}
+
+#titel {
+    padding: 1.3em;
+}
+
+.containermijnwerk {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mijnwerklink .mijnwerktitel,
+.mijnwerklink .mijnwerkbeschrijving {
+    text-decoration: none;
+    color: black;
+}
+
+.articlemijnwerk {
+    width: 25%;
+    padding: 2em;
+}
+
+.mijnwerkplaatje {
+    width: 100%;
+}
+
+.documentenlink {
+    text-decoration: underline;
+    background-color: paleturquoise;
+}
+
+form {
+    padding-left: 20%;
+}
+
+button {
+    font-family: mrs-eaves, serif;
+    background-color: #F54900;
+    color: white;
+    padding: 0.8em;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 0.5em;
+}
+
+.pictureperfect {
+    width: 100%;
+}
+
+input {
+    width: 80%;
+    padding: 1em;
+}
+
+#mail {
+    text-decoration: none;
+    background-color: paleturquoise;
+    color: black;
+    font-weight: bold;
+}
+
+.aktivscherm {
+    width: 20em;
+}
+
+.bildungscherm {
+    width: 10em;
+    padding-right: 5em;
+    padding-left: 5em;
+    padding-top: 2em;
+}
+
+.containeraktiv {
+    display: flex;
+}
+
+.minortekst p,
+h2 {
+    max-width: 500px;
+}
+
+.werelden li {
+    list-style: none;
+    font-weight: bold;
+    color: #F54900;
+    padding: 1em;
+    padding-left: 10em;
+}
+
+video {
+    width: 80%;
+}
+
+.visualcontainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.visualcontainer p {
+    width: 80%;
+}
+
+.visual {
+    height: 30em;
+    padding-right: 5em;
+    padding-left: 5em;
+    padding-top: 2em;
+}
+
+.nemo {
+    height: 20em;
+    padding-top: 12em;
+    ;
+}
